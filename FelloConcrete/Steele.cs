@@ -8,7 +8,7 @@ namespace FelloConcrete
 {
     class Steele
     {
-        public double fyk { get; private set; }
+        public float fyk { get; private set; }
 
         public Steele(string nazwaStal)
         {

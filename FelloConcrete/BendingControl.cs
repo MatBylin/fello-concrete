@@ -25,20 +25,33 @@ namespace FelloConcrete
 
         private void buttonZginanieObliczenia_Click(object sender, EventArgs e)
         {
-            float b = float.Parse(textBoxBendingB.Text);
-            float h = float.Parse(textBoxBendingH.Text);
-            float a = float.Parse(textBoxBendingA.Text);
-            float m = float.Parse(textBoxBendingM.Text);
-
+            var b = float.Parse(textBoxBendingB.Text);
+            var h = float.Parse(textBoxBendingH.Text);
+            var a = float.Parse(textBoxBendingA.Text);
+            var m = float.Parse(textBoxBendingM.Text);
             string nameConcrete = comboBoxBendingConcrete.Text;
             string nameSteele = comboBoxBendingSteele.Text;
 
-        }
-        private void Calculate()
-        {
-             
-        }
+            float d, fcd, fyd, fyk, fctm, A, n, f;
+            double asmin;
+            d = (h - a);
+            var concrete = new Concrete(nameConcrete);
+            var steele = new Steele(nameSteele);
+            fctm = concrete.fctm;
+            fyk = steele.fyk;
+            fcd = (float)Math.Round((concrete.fck / 1.4), 2);
+            fyd = (float)Math.Round((steele.fyk / 1.15), 2);
+            asmin = concrete.AsminBending(fyk, fctm, d, b);
+            Console.WriteLine(asmin);
 
+
+            labelBendingFcd.Text = fcd + "";
+            labelBendingFyd.Text = fyd + "";
+            labelBendingAmin.Text = asmin + "";
+
+
+
+        }
         private void textBoxBendingB_KeyPress(object sender, KeyPressEventArgs e)
 
         {

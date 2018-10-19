@@ -61,9 +61,9 @@
             this.labelZginWynA = new System.Windows.Forms.Label();
             this.labelZginWynN = new System.Windows.Forms.Label();
             this.labelZginWynF = new System.Windows.Forms.Label();
-            this.labelZginWynFcd = new System.Windows.Forms.Label();
-            this.labelZginWynFyk = new System.Windows.Forms.Label();
-            this.labelZginWynAm = new System.Windows.Forms.Label();
+            this.labelBendingFcd = new System.Windows.Forms.Label();
+            this.labelBendingFyd = new System.Windows.Forms.Label();
+            this.labelBendingAmin = new System.Windows.Forms.Label();
             this.labelZginWynAs1 = new System.Windows.Forms.Label();
             this.labelZginWynAs2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -247,9 +247,9 @@
             // 
             this.groupBox1.Controls.Add(this.labelZginWynAs2);
             this.groupBox1.Controls.Add(this.labelZginWynAs1);
-            this.groupBox1.Controls.Add(this.labelZginWynAm);
-            this.groupBox1.Controls.Add(this.labelZginWynFyk);
-            this.groupBox1.Controls.Add(this.labelZginWynFcd);
+            this.groupBox1.Controls.Add(this.labelBendingAmin);
+            this.groupBox1.Controls.Add(this.labelBendingFyd);
+            this.groupBox1.Controls.Add(this.labelBendingFcd);
             this.groupBox1.Controls.Add(this.labelZginWynF);
             this.groupBox1.Controls.Add(this.labelZginWynN);
             this.groupBox1.Controls.Add(this.labelZginWynA);
@@ -344,9 +344,9 @@
             this.label13.Location = new System.Drawing.Point(168, 56);
             this.label13.Margin = new System.Windows.Forms.Padding(4);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(82, 20);
+            this.label13.Size = new System.Drawing.Size(84, 20);
             this.label13.TabIndex = 5;
-            this.label13.Text = "fyk (MPa):";
+            this.label13.Text = "fyd (MPa):";
             // 
             // label12
             // 
@@ -442,38 +442,38 @@
             this.labelZginWynF.TabIndex = 15;
             this.labelZginWynF.Text = "...";
             // 
-            // labelZginWynFcd
+            // labelBendingFcd
             // 
-            this.labelZginWynFcd.AutoSize = true;
-            this.labelZginWynFcd.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelZginWynFcd.Location = new System.Drawing.Point(265, 28);
-            this.labelZginWynFcd.Margin = new System.Windows.Forms.Padding(4);
-            this.labelZginWynFcd.Name = "labelZginWynFcd";
-            this.labelZginWynFcd.Size = new System.Drawing.Size(21, 20);
-            this.labelZginWynFcd.TabIndex = 16;
-            this.labelZginWynFcd.Text = "...";
+            this.labelBendingFcd.AutoSize = true;
+            this.labelBendingFcd.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelBendingFcd.Location = new System.Drawing.Point(264, 28);
+            this.labelBendingFcd.Margin = new System.Windows.Forms.Padding(4);
+            this.labelBendingFcd.Name = "labelBendingFcd";
+            this.labelBendingFcd.Size = new System.Drawing.Size(21, 20);
+            this.labelBendingFcd.TabIndex = 16;
+            this.labelBendingFcd.Text = "...";
             // 
-            // labelZginWynFyk
+            // labelBendingFyd
             // 
-            this.labelZginWynFyk.AutoSize = true;
-            this.labelZginWynFyk.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelZginWynFyk.Location = new System.Drawing.Point(265, 56);
-            this.labelZginWynFyk.Margin = new System.Windows.Forms.Padding(4);
-            this.labelZginWynFyk.Name = "labelZginWynFyk";
-            this.labelZginWynFyk.Size = new System.Drawing.Size(21, 20);
-            this.labelZginWynFyk.TabIndex = 17;
-            this.labelZginWynFyk.Text = "...";
+            this.labelBendingFyd.AutoSize = true;
+            this.labelBendingFyd.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelBendingFyd.Location = new System.Drawing.Point(264, 56);
+            this.labelBendingFyd.Margin = new System.Windows.Forms.Padding(4);
+            this.labelBendingFyd.Name = "labelBendingFyd";
+            this.labelBendingFyd.Size = new System.Drawing.Size(21, 20);
+            this.labelBendingFyd.TabIndex = 17;
+            this.labelBendingFyd.Text = "...";
             // 
-            // labelZginWynAm
+            // labelBendingAmin
             // 
-            this.labelZginWynAm.AutoSize = true;
-            this.labelZginWynAm.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelZginWynAm.Location = new System.Drawing.Point(265, 84);
-            this.labelZginWynAm.Margin = new System.Windows.Forms.Padding(4);
-            this.labelZginWynAm.Name = "labelZginWynAm";
-            this.labelZginWynAm.Size = new System.Drawing.Size(21, 20);
-            this.labelZginWynAm.TabIndex = 18;
-            this.labelZginWynAm.Text = "...";
+            this.labelBendingAmin.AutoSize = true;
+            this.labelBendingAmin.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelBendingAmin.Location = new System.Drawing.Point(264, 84);
+            this.labelBendingAmin.Margin = new System.Windows.Forms.Padding(4);
+            this.labelBendingAmin.Name = "labelBendingAmin";
+            this.labelBendingAmin.Size = new System.Drawing.Size(21, 20);
+            this.labelBendingAmin.TabIndex = 18;
+            this.labelBendingAmin.Text = "...";
             // 
             // labelZginWynAs1
             // 
@@ -562,9 +562,9 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label labelZginWynAs2;
         private System.Windows.Forms.Label labelZginWynAs1;
-        private System.Windows.Forms.Label labelZginWynAm;
-        private System.Windows.Forms.Label labelZginWynFyk;
-        private System.Windows.Forms.Label labelZginWynFcd;
+        private System.Windows.Forms.Label labelBendingAmin;
+        private System.Windows.Forms.Label labelBendingFyd;
+        private System.Windows.Forms.Label labelBendingFcd;
         private System.Windows.Forms.Label labelZginWynF;
         private System.Windows.Forms.Label labelZginWynN;
         private System.Windows.Forms.Label labelZginWynA;
