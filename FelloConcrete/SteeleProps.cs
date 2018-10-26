@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace FelloConcrete
 {
-    class Steele
+    class SteeleProps
     {
-        public float fyk { get; private set; }
+        public float Fyk { get; private set; }
 
-        public Steele(string nazwaStal)
+        public SteeleProps(string nazwaStal)
         {
             if (nazwaStal.ToLower() == "b400")
             {
-                fyk = 500;
+                Fyk = 400;
             }
             if (nazwaStal.ToLower() == "b500")
             {
-                fyk = 400;
+                Fyk = 500;
             }
         }
     }
