@@ -45,8 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BeamBendCalculation.cs" />
-    <Compile Include="BeamBendResults.cs" />
+    <Compile Include="ClassesCalculation\BeamBendCalculation.cs" />
+    <Compile Include="ClassesCalculation\BeamBendResults.cs" />
     <Compile Include="BendingControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -56,7 +56,7 @@
     <Compile Include="CircleButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="ConcreteProps.cs" />
+    <Compile Include="ClassesMaterial\ConcreteProps.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,7 +71,7 @@
     <Compile Include="ShearControl.Designer.cs">
       <DependentUpon>ShearControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="SteeleProps.cs" />
+    <Compile Include="ClassesMaterial\SteeleProps.cs" />
     <EmbeddedResource Include="BendingControl.resx">
       <DependentUpon>BendingControl.cs</DependentUpon>
     </EmbeddedResource>
