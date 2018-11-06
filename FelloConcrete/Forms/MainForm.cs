@@ -20,36 +20,36 @@ namespace FelloConcrete
         }
         private void SetUp()
         {
-            SidePanel.Height = buttonBending.Height;
-            SidePanel.Top = buttonBending.Top;
+            SidePanel.Height = ButtonBending.Height;
+            SidePanel.Top = ButtonBending.Top;
             bendingControl1.BringToFront();
         }
 
-        private void buttonZginanie_Click(object sender, EventArgs e)
+        private void ButtonZginanie_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = buttonBending.Height;
-            SidePanel.Top = buttonBending.Top;
+            SidePanel.Height = ButtonBending.Height;
+            SidePanel.Top = ButtonBending.Top;
             bendingControl1.BringToFront();
         }
 
-        private void buttonScinanie_Click(object sender, EventArgs e)
+        private void ButtonScinanie_Click(object sender, EventArgs e)
         {
-            SidePanel.Height = buttonShear.Height;
-            SidePanel.Top = buttonShear.Top;
+            SidePanel.Height = ButtonShear.Height;
+            SidePanel.Top = ButtonShear.Top;
             shearControl1.BringToFront();
         }
 
-        private void buttonQuit_Click(object sender, EventArgs e)
+        private void ButtonQuit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void buttonAbout_Click(object sender, EventArgs e)
+        private void ButtonAbout_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void buttonMinimize_Click(object sender, EventArgs e)
+        private void ButtonMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
@@ -58,7 +58,7 @@ namespace FelloConcrete
 
         Point lastPoint;
 
-        private void panel2_MouseMove(object sender, MouseEventArgs e)
+        private void Panel2_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
@@ -67,11 +67,11 @@ namespace FelloConcrete
 
             }
         }
-        private void panel2_MouseDown(object sender, MouseEventArgs e)
+        private void Panel2_MouseDown(object sender, MouseEventArgs e)
         {
             lastPoint = new Point(e.X, e.Y);
         }
-        private void panel2_MouseUp(object sender, MouseEventArgs e)
+        private void Panel2_MouseUp(object sender, MouseEventArgs e)
         {
            
         }

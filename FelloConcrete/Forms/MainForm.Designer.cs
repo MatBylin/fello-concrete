@@ -29,39 +29,39 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.Panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.circleButton1 = new FelloConcrete.CircleButton();
             this.SidePanel = new System.Windows.Forms.Panel();
-            this.buttonShear = new System.Windows.Forms.Button();
-            this.buttonBending = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.buttonMinimize = new System.Windows.Forms.Button();
-            this.buttonAbout = new System.Windows.Forms.Button();
-            this.buttonQuit = new System.Windows.Forms.Button();
+            this.ButtonShear = new System.Windows.Forms.Button();
+            this.ButtonBending = new System.Windows.Forms.Button();
+            this.Panel2 = new System.Windows.Forms.Panel();
+            this.ButtonMinimize = new System.Windows.Forms.Button();
+            this.ButtonAbout = new System.Windows.Forms.Button();
+            this.ButtonQuit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.bendingControl1 = new FelloConcrete.BendingControl();
             this.shearControl1 = new FelloConcrete.ShearControl();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.bendingControl1 = new FelloConcrete.BendingControl();
+            this.Panel1.SuspendLayout();
+            this.Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // Panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.circleButton1);
-            this.panel1.Controls.Add(this.SidePanel);
-            this.panel1.Controls.Add(this.buttonShear);
-            this.panel1.Controls.Add(this.buttonBending);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(210, 560);
-            this.panel1.TabIndex = 0;
+            this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.Panel1.Controls.Add(this.label3);
+            this.Panel1.Controls.Add(this.label2);
+            this.Panel1.Controls.Add(this.circleButton1);
+            this.Panel1.Controls.Add(this.SidePanel);
+            this.Panel1.Controls.Add(this.ButtonShear);
+            this.Panel1.Controls.Add(this.ButtonBending);
+            this.Panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Panel1.Location = new System.Drawing.Point(0, 0);
+            this.Panel1.Name = "Panel1";
+            this.Panel1.Size = new System.Drawing.Size(210, 560);
+            this.Panel1.TabIndex = 0;
             // 
             // label3
             // 
@@ -104,97 +104,97 @@
             this.SidePanel.Size = new System.Drawing.Size(12, 65);
             this.SidePanel.TabIndex = 3;
             // 
-            // buttonShear
+            // ButtonShear
             // 
-            this.buttonShear.FlatAppearance.BorderSize = 0;
-            this.buttonShear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonShear.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonShear.ForeColor = System.Drawing.SystemColors.Control;
-            this.buttonShear.Image = ((System.Drawing.Image)(resources.GetObject("buttonShear.Image")));
-            this.buttonShear.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonShear.Location = new System.Drawing.Point(12, 253);
-            this.buttonShear.Name = "buttonShear";
-            this.buttonShear.Size = new System.Drawing.Size(198, 65);
-            this.buttonShear.TabIndex = 4;
-            this.buttonShear.Text = "     Ścinanie EC2";
-            this.buttonShear.UseVisualStyleBackColor = true;
-            this.buttonShear.Click += new System.EventHandler(this.buttonScinanie_Click);
+            this.ButtonShear.FlatAppearance.BorderSize = 0;
+            this.ButtonShear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonShear.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.ButtonShear.ForeColor = System.Drawing.SystemColors.Control;
+            this.ButtonShear.Image = ((System.Drawing.Image)(resources.GetObject("ButtonShear.Image")));
+            this.ButtonShear.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ButtonShear.Location = new System.Drawing.Point(12, 253);
+            this.ButtonShear.Name = "ButtonShear";
+            this.ButtonShear.Size = new System.Drawing.Size(198, 65);
+            this.ButtonShear.TabIndex = 4;
+            this.ButtonShear.Text = "     Ścinanie EC2";
+            this.ButtonShear.UseVisualStyleBackColor = true;
+            this.ButtonShear.Click += new System.EventHandler(this.ButtonScinanie_Click);
             // 
-            // buttonBending
+            // ButtonBending
             // 
-            this.buttonBending.FlatAppearance.BorderSize = 0;
-            this.buttonBending.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonBending.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonBending.ForeColor = System.Drawing.SystemColors.Control;
-            this.buttonBending.Image = ((System.Drawing.Image)(resources.GetObject("buttonBending.Image")));
-            this.buttonBending.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonBending.Location = new System.Drawing.Point(12, 187);
-            this.buttonBending.Name = "buttonBending";
-            this.buttonBending.Size = new System.Drawing.Size(198, 65);
-            this.buttonBending.TabIndex = 3;
-            this.buttonBending.Text = "     Zginanie EC2";
-            this.buttonBending.UseVisualStyleBackColor = true;
-            this.buttonBending.Click += new System.EventHandler(this.buttonZginanie_Click);
+            this.ButtonBending.FlatAppearance.BorderSize = 0;
+            this.ButtonBending.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonBending.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.ButtonBending.ForeColor = System.Drawing.SystemColors.Control;
+            this.ButtonBending.Image = ((System.Drawing.Image)(resources.GetObject("ButtonBending.Image")));
+            this.ButtonBending.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ButtonBending.Location = new System.Drawing.Point(12, 187);
+            this.ButtonBending.Name = "ButtonBending";
+            this.ButtonBending.Size = new System.Drawing.Size(198, 65);
+            this.ButtonBending.TabIndex = 3;
+            this.ButtonBending.Text = "     Zginanie EC2";
+            this.ButtonBending.UseVisualStyleBackColor = true;
+            this.ButtonBending.Click += new System.EventHandler(this.ButtonZginanie_Click);
             // 
-            // panel2
+            // Panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(86)))), ((int)(((byte)(136)))));
-            this.panel2.Controls.Add(this.buttonMinimize);
-            this.panel2.Controls.Add(this.buttonAbout);
-            this.panel2.Controls.Add(this.buttonQuit);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(210, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(615, 35);
-            this.panel2.TabIndex = 1;
-            this.panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseDown);
-            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
-            this.panel2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseUp);
+            this.Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(86)))), ((int)(((byte)(136)))));
+            this.Panel2.Controls.Add(this.ButtonMinimize);
+            this.Panel2.Controls.Add(this.ButtonAbout);
+            this.Panel2.Controls.Add(this.ButtonQuit);
+            this.Panel2.Controls.Add(this.pictureBox1);
+            this.Panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Panel2.Location = new System.Drawing.Point(210, 0);
+            this.Panel2.Name = "Panel2";
+            this.Panel2.Size = new System.Drawing.Size(615, 35);
+            this.Panel2.TabIndex = 1;
+            this.Panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel2_MouseDown);
+            this.Panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Panel2_MouseMove);
+            this.Panel2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Panel2_MouseUp);
             // 
-            // buttonMinimize
+            // ButtonMinimize
             // 
-            this.buttonMinimize.FlatAppearance.BorderSize = 0;
-            this.buttonMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonMinimize.Font = new System.Drawing.Font("SansSerif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.buttonMinimize.ForeColor = System.Drawing.SystemColors.Control;
-            this.buttonMinimize.Location = new System.Drawing.Point(504, 0);
-            this.buttonMinimize.Margin = new System.Windows.Forms.Padding(0);
-            this.buttonMinimize.Name = "buttonMinimize";
-            this.buttonMinimize.Size = new System.Drawing.Size(35, 35);
-            this.buttonMinimize.TabIndex = 6;
-            this.buttonMinimize.Text = "_";
-            this.buttonMinimize.UseVisualStyleBackColor = true;
-            this.buttonMinimize.Click += new System.EventHandler(this.buttonMinimize_Click);
+            this.ButtonMinimize.FlatAppearance.BorderSize = 0;
+            this.ButtonMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonMinimize.Font = new System.Drawing.Font("SansSerif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.ButtonMinimize.ForeColor = System.Drawing.SystemColors.Control;
+            this.ButtonMinimize.Location = new System.Drawing.Point(504, 0);
+            this.ButtonMinimize.Margin = new System.Windows.Forms.Padding(0);
+            this.ButtonMinimize.Name = "ButtonMinimize";
+            this.ButtonMinimize.Size = new System.Drawing.Size(35, 35);
+            this.ButtonMinimize.TabIndex = 6;
+            this.ButtonMinimize.Text = "_";
+            this.ButtonMinimize.UseVisualStyleBackColor = true;
+            this.ButtonMinimize.Click += new System.EventHandler(this.ButtonMinimize_Click);
             // 
-            // buttonAbout
+            // ButtonAbout
             // 
-            this.buttonAbout.FlatAppearance.BorderSize = 0;
-            this.buttonAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonAbout.Font = new System.Drawing.Font("SansSerif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.buttonAbout.ForeColor = System.Drawing.SystemColors.Control;
-            this.buttonAbout.Location = new System.Drawing.Point(541, 1);
-            this.buttonAbout.Margin = new System.Windows.Forms.Padding(0);
-            this.buttonAbout.Name = "buttonAbout";
-            this.buttonAbout.Size = new System.Drawing.Size(35, 35);
-            this.buttonAbout.TabIndex = 5;
-            this.buttonAbout.Text = "?";
-            this.buttonAbout.UseVisualStyleBackColor = true;
-            this.buttonAbout.Click += new System.EventHandler(this.buttonAbout_Click);
+            this.ButtonAbout.FlatAppearance.BorderSize = 0;
+            this.ButtonAbout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonAbout.Font = new System.Drawing.Font("SansSerif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.ButtonAbout.ForeColor = System.Drawing.SystemColors.Control;
+            this.ButtonAbout.Location = new System.Drawing.Point(541, 1);
+            this.ButtonAbout.Margin = new System.Windows.Forms.Padding(0);
+            this.ButtonAbout.Name = "ButtonAbout";
+            this.ButtonAbout.Size = new System.Drawing.Size(35, 35);
+            this.ButtonAbout.TabIndex = 5;
+            this.ButtonAbout.Text = "?";
+            this.ButtonAbout.UseVisualStyleBackColor = true;
+            this.ButtonAbout.Click += new System.EventHandler(this.ButtonAbout_Click);
             // 
-            // buttonQuit
+            // ButtonQuit
             // 
-            this.buttonQuit.FlatAppearance.BorderSize = 0;
-            this.buttonQuit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonQuit.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonQuit.ForeColor = System.Drawing.SystemColors.Control;
-            this.buttonQuit.Image = ((System.Drawing.Image)(resources.GetObject("buttonQuit.Image")));
-            this.buttonQuit.Location = new System.Drawing.Point(579, 1);
-            this.buttonQuit.Name = "buttonQuit";
-            this.buttonQuit.Size = new System.Drawing.Size(35, 35);
-            this.buttonQuit.TabIndex = 4;
-            this.buttonQuit.UseVisualStyleBackColor = true;
-            this.buttonQuit.Click += new System.EventHandler(this.buttonQuit_Click);
+            this.ButtonQuit.FlatAppearance.BorderSize = 0;
+            this.ButtonQuit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonQuit.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.ButtonQuit.ForeColor = System.Drawing.SystemColors.Control;
+            this.ButtonQuit.Image = ((System.Drawing.Image)(resources.GetObject("ButtonQuit.Image")));
+            this.ButtonQuit.Location = new System.Drawing.Point(579, 1);
+            this.ButtonQuit.Name = "ButtonQuit";
+            this.ButtonQuit.Size = new System.Drawing.Size(35, 35);
+            this.ButtonQuit.TabIndex = 4;
+            this.ButtonQuit.UseVisualStyleBackColor = true;
+            this.ButtonQuit.Click += new System.EventHandler(this.ButtonQuit_Click);
             // 
             // pictureBox1
             // 
@@ -206,13 +206,6 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // bendingControl1
-            // 
-            this.bendingControl1.Location = new System.Drawing.Point(210, 37);
-            this.bendingControl1.Name = "bendingControl1";
-            this.bendingControl1.Size = new System.Drawing.Size(615, 500);
-            this.bendingControl1.TabIndex = 2;
-            // 
             // shearControl1
             // 
             this.shearControl1.Location = new System.Drawing.Point(210, 37);
@@ -220,22 +213,29 @@
             this.shearControl1.Size = new System.Drawing.Size(615, 500);
             this.shearControl1.TabIndex = 3;
             // 
+            // bendingControl1
+            // 
+            this.bendingControl1.Location = new System.Drawing.Point(210, 37);
+            this.bendingControl1.Name = "bendingControl1";
+            this.bendingControl1.Size = new System.Drawing.Size(615, 500);
+            this.bendingControl1.TabIndex = 2;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(825, 560);
             this.Controls.Add(this.shearControl1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.Panel2);
+            this.Controls.Add(this.Panel1);
             this.Controls.Add(this.bendingControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
+            this.Panel1.ResumeLayout(false);
+            this.Panel1.PerformLayout();
+            this.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -243,18 +243,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button buttonShear;
-        private System.Windows.Forms.Button buttonBending;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel Panel1;
+        private System.Windows.Forms.Button ButtonShear;
+        private System.Windows.Forms.Button ButtonBending;
+        private System.Windows.Forms.Panel Panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel SidePanel;
-        private System.Windows.Forms.Button buttonAbout;
-        private System.Windows.Forms.Button buttonQuit;
+        private System.Windows.Forms.Button ButtonAbout;
+        private System.Windows.Forms.Button ButtonQuit;
         private System.Windows.Forms.Label label2;
         private CircleButton circleButton1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button buttonMinimize;
+        private System.Windows.Forms.Button ButtonMinimize;
         private BendingControl bendingControl1;
         private ShearControl shearControl1;
     }

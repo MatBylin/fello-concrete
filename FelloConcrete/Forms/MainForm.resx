@@ -308,7 +308,7 @@
         atslWzER6ocAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="buttonShear.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ButtonShear.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAHKSURBVFhH7ZYxbsJAFESR6KDgDpQJZSpOQMsNEqrkFMkp
@@ -322,7 +322,7 @@
         /jB6vV+Faxvm+mt1MgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="buttonBending.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ButtonBending.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAHKSURBVFhH7ZYxbsJAFESR6KDgDpQJZSpOQMsNEqrkFMkp
@@ -336,7 +336,7 @@
         /jB6vV+Faxvm+mt1MgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="buttonQuit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ButtonQuit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAGxSURBVEhL3ZTBSgJhFIUtS2jhcwTlO0SLlkVptukBwoqk

@@ -32,18 +32,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBoxBendingB = new System.Windows.Forms.TextBox();
-            this.textBoxBendingH = new System.Windows.Forms.TextBox();
+            this.TextBoxBendingB = new System.Windows.Forms.TextBox();
+            this.TextBoxBendingH = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBoxBendingA = new System.Windows.Forms.TextBox();
+            this.TextBoxBendingA = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBoxBendingM = new System.Windows.Forms.TextBox();
+            this.TextBoxBendingM = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.buttonBendingResults = new System.Windows.Forms.Button();
+            this.ButtonBendingResults = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.labelBendingAmax = new System.Windows.Forms.Label();
@@ -66,8 +66,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.comboBoxBendingSteele = new System.Windows.Forms.ComboBox();
-            this.comboBoxBendingConcrete = new System.Windows.Forms.ComboBox();
+            this.ComboBoxBendingSteele = new System.Windows.Forms.ComboBox();
+            this.ComboBoxBendingConcrete = new System.Windows.Forms.ComboBox();
             this.labelBendingWarning = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -97,63 +97,63 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(49, 119);
+            this.label3.Location = new System.Drawing.Point(45, 119);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "b (mm):";
             // 
-            // textBoxBendingB
+            // TextBoxBendingB
             // 
-            this.textBoxBendingB.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBoxBendingB.Location = new System.Drawing.Point(132, 116);
-            this.textBoxBendingB.Margin = new System.Windows.Forms.Padding(6);
-            this.textBoxBendingB.Name = "textBoxBendingB";
-            this.textBoxBendingB.Size = new System.Drawing.Size(76, 26);
-            this.textBoxBendingB.TabIndex = 0;
-            this.textBoxBendingB.Text = "250";
-            this.textBoxBendingB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxBendingB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxBendingB_KeyPress);
+            this.TextBoxBendingB.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TextBoxBendingB.Location = new System.Drawing.Point(128, 116);
+            this.TextBoxBendingB.Margin = new System.Windows.Forms.Padding(6);
+            this.TextBoxBendingB.Name = "TextBoxBendingB";
+            this.TextBoxBendingB.Size = new System.Drawing.Size(74, 26);
+            this.TextBoxBendingB.TabIndex = 0;
+            this.TextBoxBendingB.Text = "250";
+            this.TextBoxBendingB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TextBoxBendingB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxBendingB_KeyPress);
             // 
-            // textBoxBendingH
+            // TextBoxBendingH
             // 
-            this.textBoxBendingH.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBoxBendingH.Location = new System.Drawing.Point(132, 154);
-            this.textBoxBendingH.Margin = new System.Windows.Forms.Padding(6);
-            this.textBoxBendingH.Name = "textBoxBendingH";
-            this.textBoxBendingH.Size = new System.Drawing.Size(76, 26);
-            this.textBoxBendingH.TabIndex = 1;
-            this.textBoxBendingH.Text = "450";
-            this.textBoxBendingH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxBendingH.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxBendingH_KeyPress);
+            this.TextBoxBendingH.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TextBoxBendingH.Location = new System.Drawing.Point(128, 154);
+            this.TextBoxBendingH.Margin = new System.Windows.Forms.Padding(6);
+            this.TextBoxBendingH.Name = "TextBoxBendingH";
+            this.TextBoxBendingH.Size = new System.Drawing.Size(74, 26);
+            this.TextBoxBendingH.TabIndex = 1;
+            this.TextBoxBendingH.Text = "450";
+            this.TextBoxBendingH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TextBoxBendingH.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxBendingH_KeyPress);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(49, 157);
+            this.label4.Location = new System.Drawing.Point(45, 157);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 20);
             this.label4.TabIndex = 4;
             this.label4.Text = "h (mm):";
             // 
-            // textBoxBendingA
+            // TextBoxBendingA
             // 
-            this.textBoxBendingA.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBoxBendingA.Location = new System.Drawing.Point(132, 192);
-            this.textBoxBendingA.Margin = new System.Windows.Forms.Padding(6);
-            this.textBoxBendingA.Name = "textBoxBendingA";
-            this.textBoxBendingA.Size = new System.Drawing.Size(76, 26);
-            this.textBoxBendingA.TabIndex = 2;
-            this.textBoxBendingA.Text = "25";
-            this.textBoxBendingA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxBendingA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxBendingA_KeyPress);
+            this.TextBoxBendingA.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TextBoxBendingA.Location = new System.Drawing.Point(128, 192);
+            this.TextBoxBendingA.Margin = new System.Windows.Forms.Padding(6);
+            this.TextBoxBendingA.Name = "TextBoxBendingA";
+            this.TextBoxBendingA.Size = new System.Drawing.Size(74, 26);
+            this.TextBoxBendingA.TabIndex = 2;
+            this.TextBoxBendingA.Text = "25";
+            this.TextBoxBendingA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TextBoxBendingA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxBendingA_KeyPress);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(49, 195);
+            this.label5.Location = new System.Drawing.Point(45, 195);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(63, 20);
             this.label5.TabIndex = 6;
@@ -163,7 +163,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label7.Location = new System.Drawing.Point(49, 305);
+            this.label7.Location = new System.Drawing.Point(45, 307);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(41, 20);
             this.label7.TabIndex = 10;
@@ -173,29 +173,29 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label8.Location = new System.Drawing.Point(49, 343);
+            this.label8.Location = new System.Drawing.Point(45, 345);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(61, 20);
             this.label8.TabIndex = 12;
             this.label8.Text = "beton :";
             // 
-            // textBoxBendingM
+            // TextBoxBendingM
             // 
-            this.textBoxBendingM.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBoxBendingM.Location = new System.Drawing.Point(132, 378);
-            this.textBoxBendingM.Margin = new System.Windows.Forms.Padding(6);
-            this.textBoxBendingM.Name = "textBoxBendingM";
-            this.textBoxBendingM.Size = new System.Drawing.Size(76, 26);
-            this.textBoxBendingM.TabIndex = 5;
-            this.textBoxBendingM.Text = "105,5";
-            this.textBoxBendingM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxBendingM.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxBendingM_KeyPress);
+            this.TextBoxBendingM.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.TextBoxBendingM.Location = new System.Drawing.Point(128, 380);
+            this.TextBoxBendingM.Margin = new System.Windows.Forms.Padding(6);
+            this.TextBoxBendingM.Name = "TextBoxBendingM";
+            this.TextBoxBendingM.Size = new System.Drawing.Size(76, 26);
+            this.TextBoxBendingM.TabIndex = 5;
+            this.TextBoxBendingM.Text = "105,5";
+            this.TextBoxBendingM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TextBoxBendingM.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxBendingM_KeyPress);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label9.Location = new System.Drawing.Point(49, 381);
+            this.label9.Location = new System.Drawing.Point(45, 383);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(82, 20);
             this.label9.TabIndex = 14;
@@ -205,7 +205,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label6.Location = new System.Drawing.Point(44, 87);
+            this.label6.Location = new System.Drawing.Point(40, 87);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(110, 21);
             this.label6.TabIndex = 16;
@@ -215,33 +215,33 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label10.Location = new System.Drawing.Point(44, 273);
+            this.label10.Location = new System.Drawing.Point(40, 275);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(105, 21);
             this.label10.TabIndex = 17;
             this.label10.Text = "Parametry :";
             // 
-            // buttonBendingResults
+            // ButtonBendingResults
             // 
-            this.buttonBendingResults.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonBendingResults.FlatAppearance.BorderSize = 0;
-            this.buttonBendingResults.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonBendingResults.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonBendingResults.ForeColor = System.Drawing.SystemColors.Control;
-            this.buttonBendingResults.Location = new System.Drawing.Point(53, 442);
-            this.buttonBendingResults.Name = "buttonBendingResults";
-            this.buttonBendingResults.Size = new System.Drawing.Size(159, 51);
-            this.buttonBendingResults.TabIndex = 6;
-            this.buttonBendingResults.Text = "Obliczenia";
-            this.buttonBendingResults.UseVisualStyleBackColor = false;
-            this.buttonBendingResults.Click += new System.EventHandler(this.buttonZginanieObliczenia_Click);
+            this.ButtonBendingResults.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ButtonBendingResults.FlatAppearance.BorderSize = 0;
+            this.ButtonBendingResults.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonBendingResults.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.ButtonBendingResults.ForeColor = System.Drawing.SystemColors.Control;
+            this.ButtonBendingResults.Location = new System.Drawing.Point(49, 442);
+            this.ButtonBendingResults.Name = "ButtonBendingResults";
+            this.ButtonBendingResults.Size = new System.Drawing.Size(159, 51);
+            this.ButtonBendingResults.TabIndex = 6;
+            this.ButtonBendingResults.Text = "Obliczenia";
+            this.ButtonBendingResults.UseVisualStyleBackColor = false;
+            this.ButtonBendingResults.Click += new System.EventHandler(this.ButtonZginanieObliczenia_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(335, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(341, 9);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(254, 265);
+            this.pictureBox1.Size = new System.Drawing.Size(264, 277);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
@@ -280,8 +280,8 @@
             // 
             this.labelBendingAmax.AutoSize = true;
             this.labelBendingAmax.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBendingAmax.Location = new System.Drawing.Point(262, 130);
-            this.labelBendingAmax.Margin = new System.Windows.Forms.Padding(7);
+            this.labelBendingAmax.Location = new System.Drawing.Point(262, 124);
+            this.labelBendingAmax.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingAmax.Name = "labelBendingAmax";
             this.labelBendingAmax.Size = new System.Drawing.Size(21, 20);
             this.labelBendingAmax.TabIndex = 22;
@@ -291,8 +291,8 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label21.Location = new System.Drawing.Point(164, 130);
-            this.label21.Margin = new System.Windows.Forms.Padding(7);
+            this.label21.Location = new System.Drawing.Point(164, 124);
+            this.label21.Margin = new System.Windows.Forms.Padding(6);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(95, 20);
             this.label21.TabIndex = 21;
@@ -301,22 +301,22 @@
             // labelBendingAs2
             // 
             this.labelBendingAs2.AutoSize = true;
-            this.labelBendingAs2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelBendingAs2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelBendingAs2.Location = new System.Drawing.Point(260, 184);
             this.labelBendingAs2.Margin = new System.Windows.Forms.Padding(4);
             this.labelBendingAs2.Name = "labelBendingAs2";
-            this.labelBendingAs2.Size = new System.Drawing.Size(20, 18);
+            this.labelBendingAs2.Size = new System.Drawing.Size(21, 19);
             this.labelBendingAs2.TabIndex = 20;
             this.labelBendingAs2.Text = "...";
             // 
             // labelBendingAs1
             // 
             this.labelBendingAs1.AutoSize = true;
-            this.labelBendingAs1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelBendingAs1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelBendingAs1.Location = new System.Drawing.Point(111, 184);
             this.labelBendingAs1.Margin = new System.Windows.Forms.Padding(4);
             this.labelBendingAs1.Name = "labelBendingAs1";
-            this.labelBendingAs1.Size = new System.Drawing.Size(20, 18);
+            this.labelBendingAs1.Size = new System.Drawing.Size(21, 19);
             this.labelBendingAs1.TabIndex = 19;
             this.labelBendingAs1.Text = "...";
             // 
@@ -324,8 +324,8 @@
             // 
             this.labelBendingAmin.AutoSize = true;
             this.labelBendingAmin.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBendingAmin.Location = new System.Drawing.Point(262, 96);
-            this.labelBendingAmin.Margin = new System.Windows.Forms.Padding(7);
+            this.labelBendingAmin.Location = new System.Drawing.Point(262, 92);
+            this.labelBendingAmin.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingAmin.Name = "labelBendingAmin";
             this.labelBendingAmin.Size = new System.Drawing.Size(21, 20);
             this.labelBendingAmin.TabIndex = 18;
@@ -335,8 +335,8 @@
             // 
             this.labelBendingFyd.AutoSize = true;
             this.labelBendingFyd.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBendingFyd.Location = new System.Drawing.Point(264, 62);
-            this.labelBendingFyd.Margin = new System.Windows.Forms.Padding(7);
+            this.labelBendingFyd.Location = new System.Drawing.Point(264, 60);
+            this.labelBendingFyd.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingFyd.Name = "labelBendingFyd";
             this.labelBendingFyd.Size = new System.Drawing.Size(21, 20);
             this.labelBendingFyd.TabIndex = 17;
@@ -347,7 +347,7 @@
             this.labelBendingFcd.AutoSize = true;
             this.labelBendingFcd.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelBendingFcd.Location = new System.Drawing.Point(264, 28);
-            this.labelBendingFcd.Margin = new System.Windows.Forms.Padding(7);
+            this.labelBendingFcd.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingFcd.Name = "labelBendingFcd";
             this.labelBendingFcd.Size = new System.Drawing.Size(21, 20);
             this.labelBendingFcd.TabIndex = 16;
@@ -357,8 +357,8 @@
             // 
             this.labelBendingF.AutoSize = true;
             this.labelBendingF.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBendingF.Location = new System.Drawing.Point(85, 130);
-            this.labelBendingF.Margin = new System.Windows.Forms.Padding(7);
+            this.labelBendingF.Location = new System.Drawing.Point(85, 124);
+            this.labelBendingF.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingF.Name = "labelBendingF";
             this.labelBendingF.Size = new System.Drawing.Size(21, 20);
             this.labelBendingF.TabIndex = 15;
@@ -368,8 +368,8 @@
             // 
             this.labelBendingN.AutoSize = true;
             this.labelBendingN.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBendingN.Location = new System.Drawing.Point(85, 96);
-            this.labelBendingN.Margin = new System.Windows.Forms.Padding(7);
+            this.labelBendingN.Location = new System.Drawing.Point(85, 92);
+            this.labelBendingN.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingN.Name = "labelBendingN";
             this.labelBendingN.Size = new System.Drawing.Size(21, 20);
             this.labelBendingN.TabIndex = 14;
@@ -379,8 +379,8 @@
             // 
             this.labelBendingA.AutoSize = true;
             this.labelBendingA.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBendingA.Location = new System.Drawing.Point(87, 62);
-            this.labelBendingA.Margin = new System.Windows.Forms.Padding(7);
+            this.labelBendingA.Location = new System.Drawing.Point(87, 60);
+            this.labelBendingA.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingA.Name = "labelBendingA";
             this.labelBendingA.Size = new System.Drawing.Size(21, 20);
             this.labelBendingA.TabIndex = 13;
@@ -391,7 +391,7 @@
             this.labelBendingD.AutoSize = true;
             this.labelBendingD.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelBendingD.Location = new System.Drawing.Point(87, 28);
-            this.labelBendingD.Margin = new System.Windows.Forms.Padding(7);
+            this.labelBendingD.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingD.Name = "labelBendingD";
             this.labelBendingD.Size = new System.Drawing.Size(21, 20);
             this.labelBendingD.TabIndex = 12;
@@ -423,8 +423,8 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label17.Location = new System.Drawing.Point(14, 130);
-            this.label17.Margin = new System.Windows.Forms.Padding(7);
+            this.label17.Location = new System.Drawing.Point(14, 124);
+            this.label17.Margin = new System.Windows.Forms.Padding(6);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(35, 20);
             this.label17.TabIndex = 9;
@@ -434,8 +434,8 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label16.Location = new System.Drawing.Point(14, 96);
-            this.label16.Margin = new System.Windows.Forms.Padding(7);
+            this.label16.Location = new System.Drawing.Point(14, 92);
+            this.label16.Margin = new System.Windows.Forms.Padding(6);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(26, 20);
             this.label16.TabIndex = 8;
@@ -445,8 +445,8 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label15.Location = new System.Drawing.Point(14, 62);
-            this.label15.Margin = new System.Windows.Forms.Padding(7);
+            this.label15.Location = new System.Drawing.Point(14, 60);
+            this.label15.Margin = new System.Windows.Forms.Padding(6);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(69, 20);
             this.label15.TabIndex = 7;
@@ -456,8 +456,8 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label14.Location = new System.Drawing.Point(164, 96);
-            this.label14.Margin = new System.Windows.Forms.Padding(7);
+            this.label14.Location = new System.Drawing.Point(164, 92);
+            this.label14.Margin = new System.Windows.Forms.Padding(6);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(90, 20);
             this.label14.TabIndex = 6;
@@ -467,8 +467,8 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label13.Location = new System.Drawing.Point(166, 62);
-            this.label13.Margin = new System.Windows.Forms.Padding(7);
+            this.label13.Location = new System.Drawing.Point(166, 60);
+            this.label13.Margin = new System.Windows.Forms.Padding(6);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(84, 20);
             this.label13.TabIndex = 5;
@@ -479,7 +479,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label12.Location = new System.Drawing.Point(168, 28);
-            this.label12.Margin = new System.Windows.Forms.Padding(7);
+            this.label12.Margin = new System.Windows.Forms.Padding(6);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(86, 20);
             this.label12.TabIndex = 4;
@@ -490,39 +490,43 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label11.Location = new System.Drawing.Point(16, 28);
-            this.label11.Margin = new System.Windows.Forms.Padding(7);
+            this.label11.Margin = new System.Windows.Forms.Padding(6);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(63, 20);
             this.label11.TabIndex = 3;
             this.label11.Text = "d (mm):";
             // 
-            // comboBoxBendingSteele
+            // ComboBoxBendingSteele
             // 
-            this.comboBoxBendingSteele.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.comboBoxBendingSteele.FormattingEnabled = true;
-            this.comboBoxBendingSteele.Items.AddRange(new object[] {
+            this.ComboBoxBendingSteele.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ComboBoxBendingSteele.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ComboBoxBendingSteele.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.ComboBoxBendingSteele.FormattingEnabled = true;
+            this.ComboBoxBendingSteele.Items.AddRange(new object[] {
             "B400",
             "B500"});
-            this.comboBoxBendingSteele.Location = new System.Drawing.Point(132, 301);
-            this.comboBoxBendingSteele.Name = "comboBoxBendingSteele";
-            this.comboBoxBendingSteele.Size = new System.Drawing.Size(76, 28);
-            this.comboBoxBendingSteele.TabIndex = 3;
+            this.ComboBoxBendingSteele.Location = new System.Drawing.Point(128, 303);
+            this.ComboBoxBendingSteele.Name = "ComboBoxBendingSteele";
+            this.ComboBoxBendingSteele.Size = new System.Drawing.Size(76, 28);
+            this.ComboBoxBendingSteele.TabIndex = 3;
             // 
-            // comboBoxBendingConcrete
+            // ComboBoxBendingConcrete
             // 
-            this.comboBoxBendingConcrete.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.comboBoxBendingConcrete.FormattingEnabled = true;
-            this.comboBoxBendingConcrete.Items.AddRange(new object[] {
+            this.ComboBoxBendingConcrete.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ComboBoxBendingConcrete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ComboBoxBendingConcrete.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.ComboBoxBendingConcrete.FormattingEnabled = true;
+            this.ComboBoxBendingConcrete.Items.AddRange(new object[] {
             "C12/15",
             "C16/20",
             "C20/25",
             "C25/30",
             "C30/37",
             "C35/45"});
-            this.comboBoxBendingConcrete.Location = new System.Drawing.Point(132, 340);
-            this.comboBoxBendingConcrete.Name = "comboBoxBendingConcrete";
-            this.comboBoxBendingConcrete.Size = new System.Drawing.Size(76, 28);
-            this.comboBoxBendingConcrete.TabIndex = 4;
+            this.ComboBoxBendingConcrete.Location = new System.Drawing.Point(128, 342);
+            this.ComboBoxBendingConcrete.Name = "ComboBoxBendingConcrete";
+            this.ComboBoxBendingConcrete.Size = new System.Drawing.Size(76, 28);
+            this.ComboBoxBendingConcrete.TabIndex = 4;
             // 
             // labelBendingWarning
             // 
@@ -540,22 +544,22 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.labelBendingWarning);
-            this.Controls.Add(this.comboBoxBendingConcrete);
-            this.Controls.Add(this.comboBoxBendingSteele);
+            this.Controls.Add(this.ComboBoxBendingConcrete);
+            this.Controls.Add(this.ComboBoxBendingSteele);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.buttonBendingResults);
+            this.Controls.Add(this.ButtonBendingResults);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBoxBendingM);
+            this.Controls.Add(this.TextBoxBendingM);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBoxBendingA);
+            this.Controls.Add(this.TextBoxBendingA);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBoxBendingH);
+            this.Controls.Add(this.TextBoxBendingH);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBoxBendingB);
+            this.Controls.Add(this.TextBoxBendingB);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -574,22 +578,22 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBoxBendingB;
-        private System.Windows.Forms.TextBox textBoxBendingH;
+        private System.Windows.Forms.TextBox TextBoxBendingB;
+        private System.Windows.Forms.TextBox TextBoxBendingH;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBoxBendingA;
+        private System.Windows.Forms.TextBox TextBoxBendingA;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBoxBendingM;
+        private System.Windows.Forms.TextBox TextBoxBendingM;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button buttonBendingResults;
+        private System.Windows.Forms.Button ButtonBendingResults;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox comboBoxBendingSteele;
-        private System.Windows.Forms.ComboBox comboBoxBendingConcrete;
+        private System.Windows.Forms.ComboBox ComboBoxBendingSteele;
+        private System.Windows.Forms.ComboBox ComboBoxBendingConcrete;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;

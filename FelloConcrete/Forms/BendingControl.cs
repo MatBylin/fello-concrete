@@ -19,18 +19,19 @@ namespace FelloConcrete
         }
         private void SetUp()
         {
-            comboBoxBendingSteele.SelectedIndex = 1;
-            comboBoxBendingConcrete.SelectedIndex = 3;
+            ComboBoxBendingSteele.SelectedIndex = 1;
+            ComboBoxBendingConcrete.SelectedIndex = 3;
         }
 
-        private void buttonZginanieObliczenia_Click(object sender, EventArgs e)
+        private void ButtonZginanieObliczenia_Click(object sender, EventArgs e)
         {
-            var b = double.Parse(textBoxBendingB.Text);
-            var h = double.Parse(textBoxBendingH.Text);
-            var a = double.Parse(textBoxBendingA.Text);
-            var m = Math.Abs(double.Parse(textBoxBendingM.Text));
-            string nameConcrete = comboBoxBendingConcrete.Text;
-            string nameSteele = comboBoxBendingSteele.Text;
+            //otrzymanie wartości z pól
+            var b = double.Parse(TextBoxBendingB.Text);
+            var h = double.Parse(TextBoxBendingH.Text);
+            var a = double.Parse(TextBoxBendingA.Text);
+            var m = Math.Abs(double.Parse(TextBoxBendingM.Text));
+            string nameConcrete = ComboBoxBendingConcrete.Text;
+            string nameSteele = ComboBoxBendingSteele.Text;
 
             double d, fck, fcd, fyd, fyk, fctm, pow, ni, f, asmax, asmin;
             double as1, as2;
@@ -80,22 +81,22 @@ namespace FelloConcrete
             labelBendingWarning.Text = warning;
 
         }
-        private void textBoxBendingB_KeyPress(object sender, KeyPressEventArgs e)
+        private void TextBoxBendingB_KeyPress(object sender, KeyPressEventArgs e)
         {
             OnlyDigit(sender, e);
         }
 
-        private void textBoxBendingH_KeyPress(object sender, KeyPressEventArgs e)
+        private void TextBoxBendingH_KeyPress(object sender, KeyPressEventArgs e)
         {
             OnlyDigit(sender, e);
         }
 
-        private void textBoxBendingA_KeyPress(object sender, KeyPressEventArgs e)
+        private void TextBoxBendingA_KeyPress(object sender, KeyPressEventArgs e)
         {
             OnlyDigit(sender, e);
         }
 
-        private void textBoxBendingM_KeyPress(object sender, KeyPressEventArgs e)
+        private void TextBoxBendingM_KeyPress(object sender, KeyPressEventArgs e)
         {
             OnlyDigit(sender, e);
         }
@@ -103,7 +104,7 @@ namespace FelloConcrete
         private void OnlyDigit(object sender, KeyPressEventArgs e)
         {
             char ch = e.KeyChar;
-            if (!Char.IsDigit(ch) && ch != 8)
+            if (!Char.IsDigit(ch) && ch != 8 &&ch != ',')
             {
                 e.Handled = true;
             }
