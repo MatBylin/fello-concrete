@@ -45,37 +45,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassesCalculation\BeamBendCalculation.cs" />
-    <Compile Include="ClassesCalculation\BeamBendResults.cs" />
-    <Compile Include="BendingControl.cs">
+    <Compile Include="classes calculation\BeamBendCalculation.cs" />
+    <Compile Include="classes calculation\BeamBendResults.cs" />
+    <Compile Include="forms\BendingControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="BendingControl.Designer.cs">
+    <Compile Include="forms\BendingControl.Designer.cs">
       <DependentUpon>BendingControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="CircleButton.cs">
+    <Compile Include="forms\CircleButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="ClassesMaterial\ConcreteProps.cs" />
-    <Compile Include="MainForm.cs">
+    <Compile Include="classes material\ConcreteProps.cs" />
+    <Compile Include="forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
+    <Compile Include="forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShearControl.cs">
+    <Compile Include="forms\ShearControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ShearControl.Designer.cs">
+    <Compile Include="forms\ShearControl.Designer.cs">
       <DependentUpon>ShearControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClassesMaterial\SteeleProps.cs" />
-    <EmbeddedResource Include="BendingControl.resx">
+    <Compile Include="classes material\SteeleProps.cs" />
+    <EmbeddedResource Include="forms\BendingControl.resx">
       <DependentUpon>BendingControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -87,7 +87,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ShearControl.resx">
+    <EmbeddedResource Include="forms\ShearControl.resx">
       <DependentUpon>ShearControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

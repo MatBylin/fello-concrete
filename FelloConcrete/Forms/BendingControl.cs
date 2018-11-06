@@ -32,8 +32,9 @@ namespace FelloConcrete
             string nameConcrete = comboBoxBendingConcrete.Text;
             string nameSteele = comboBoxBendingSteele.Text;
 
-            double d, fcd, fyd, fyk, fctm, pow, ni, f, asmax, asmin;
+            double d, fck, fcd, fyd, fyk, fctm, pow, ni, f, asmax, asmin;
             double as1, as2;
+            string warning;
 
             d = (h - a);
             pow = b * h / 100;
@@ -41,10 +42,18 @@ namespace FelloConcrete
             //Obiekty betonu i stali oraz parametry
             var concrete = new ConcreteProps(nameConcrete);
             var steele = new SteeleProps(nameSteele);
-            fctm = concrete.Fctm;
-            fyk = steele.Fyk;
-            fcd = Math.Round((concrete.Fck / 1.4), 2);
-            fyd = Math.Round((steele.Fyk / 1.15), 2);
+
+            //wytrzymalosci dla betonu betonu
+            var concretePropResult = concrete.ConcretePropResult();
+            fctm = concretePropResult.Fctm;
+            fck = concretePropResult.Fck;
+
+            //wytrzymalosci dla stali
+            var steelePropResult = steele.StleelePropResult();
+            fyk = steelePropResult.Fyk;
+
+            fcd = Math.Round((fck / 1.4), 2);
+            fyd = Math.Round((fyk/ 1.15), 2);
 
             //obiekty BeamBend
             BeamBendCalculation bbc = new BeamBendCalculation();
@@ -53,6 +62,7 @@ namespace FelloConcrete
             as2 = result.As2;
             ni = result.ni;
             f = result.zasiegStrefySciskanej;
+            warning = result.Warning;
             asmin = bbc.CalculationAsmin(b, d, fctm, fyk);
             asmax = bbc.CalculationAsmax(b, d);
 
@@ -60,12 +70,14 @@ namespace FelloConcrete
             labelBendingFcd.Text = fcd + "";
             labelBendingFyd.Text = fyd + "";
             labelBendingAmin.Text = asmin + "";
+            labelBendingAmax.Text = asmax + "";
             labelBendingD.Text = d + "";
             labelBendingA.Text = pow + "";
             labelBendingN.Text = ni + "";
             labelBendingF.Text = f + "";
             labelBendingAs1.Text = as1 + "";
             labelBendingAs2.Text = as2 + "";
+            labelBendingWarning.Text = warning;
 
         }
         private void textBoxBendingB_KeyPress(object sender, KeyPressEventArgs e)

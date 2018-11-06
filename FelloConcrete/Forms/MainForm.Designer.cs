@@ -60,7 +60,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(210, 540);
+            this.panel1.Size = new System.Drawing.Size(210, 560);
             this.panel1.TabIndex = 0;
             // 
             // label3
@@ -224,7 +224,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(825, 540);
+            this.ClientSize = new System.Drawing.Size(825, 560);
             this.Controls.Add(this.shearControl1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

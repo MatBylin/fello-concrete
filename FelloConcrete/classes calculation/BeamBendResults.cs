@@ -12,5 +12,7 @@ namespace FelloConcrete
         public double zasiegStrefySciskanej { get; set; }
         public double As1 { get; set; }
         public double As2 { get; set; }
+        public string Warning { get; set; }
+
     }
 }

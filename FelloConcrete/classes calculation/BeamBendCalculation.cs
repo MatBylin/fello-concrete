@@ -10,6 +10,7 @@ namespace FelloConcrete
     {
         double ks, ni, x, y, zasiegStrefySciskanej, zasiegStrefySciskanejLim, ramieSil, mRd, As1, As2;
         const double pi = 3.1415;
+        string warn;
         //double Asmin, Asmax;
 
         public BeamBendResults Calculate(double my, double b, double d, double a, double n, double fcd, double fyd)
@@ -38,6 +39,16 @@ namespace FelloConcrete
             zasiegStrefySciskanej = Math.Round(zasiegStrefySciskanej, 3);
             As1 = Math.Round(As1, 2);
             As2 = Math.Round(As2, 2);
+            warn = "";
+
+            if (ni > 0.50)
+            {
+                As1 = 0;
+                As2 = 0;
+                zasiegStrefySciskanej = 0;
+                ni = 0;
+                warn = "Obliczenia błędne. Zwiększ przekrój!";
+            }
 
 
             BeamBendResults result = new BeamBendResults
@@ -45,7 +56,8 @@ namespace FelloConcrete
                 ni = ni,
                 zasiegStrefySciskanej = zasiegStrefySciskanej,
                 As1 = As1,
-                As2 = As2
+                As2 = As2,
+                Warning = warn,
             };
 
             return result;
