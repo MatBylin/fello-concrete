@@ -53,8 +53,8 @@ namespace FelloConcrete
 
             BeamBendResults result = new BeamBendResults
             {
-                ni = ni,
-                zasiegStrefySciskanej = zasiegStrefySciskanej,
+                Ni = ni,
+                ZasiegStrefySciskanej = zasiegStrefySciskanej,
                 As1 = As1,
                 As2 = As2,
                 Warning = warn,

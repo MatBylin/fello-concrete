@@ -115,7 +115,7 @@
             this.ButtonShear.Location = new System.Drawing.Point(12, 253);
             this.ButtonShear.Name = "ButtonShear";
             this.ButtonShear.Size = new System.Drawing.Size(198, 65);
-            this.ButtonShear.TabIndex = 4;
+            this.ButtonShear.TabIndex = 1;
             this.ButtonShear.Text = "     Ścinanie EC2";
             this.ButtonShear.UseVisualStyleBackColor = true;
             this.ButtonShear.Click += new System.EventHandler(this.ButtonScinanie_Click);
@@ -131,7 +131,7 @@
             this.ButtonBending.Location = new System.Drawing.Point(12, 187);
             this.ButtonBending.Name = "ButtonBending";
             this.ButtonBending.Size = new System.Drawing.Size(198, 65);
-            this.ButtonBending.TabIndex = 3;
+            this.ButtonBending.TabIndex = 0;
             this.ButtonBending.Text = "     Zginanie EC2";
             this.ButtonBending.UseVisualStyleBackColor = true;
             this.ButtonBending.Click += new System.EventHandler(this.ButtonZginanie_Click);
@@ -162,7 +162,7 @@
             this.ButtonMinimize.Margin = new System.Windows.Forms.Padding(0);
             this.ButtonMinimize.Name = "ButtonMinimize";
             this.ButtonMinimize.Size = new System.Drawing.Size(35, 35);
-            this.ButtonMinimize.TabIndex = 6;
+            this.ButtonMinimize.TabIndex = 2;
             this.ButtonMinimize.Text = "_";
             this.ButtonMinimize.UseVisualStyleBackColor = true;
             this.ButtonMinimize.Click += new System.EventHandler(this.ButtonMinimize_Click);
@@ -177,7 +177,7 @@
             this.ButtonAbout.Margin = new System.Windows.Forms.Padding(0);
             this.ButtonAbout.Name = "ButtonAbout";
             this.ButtonAbout.Size = new System.Drawing.Size(35, 35);
-            this.ButtonAbout.TabIndex = 5;
+            this.ButtonAbout.TabIndex = 3;
             this.ButtonAbout.Text = "?";
             this.ButtonAbout.UseVisualStyleBackColor = true;
             this.ButtonAbout.Click += new System.EventHandler(this.ButtonAbout_Click);

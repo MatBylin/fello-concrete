@@ -46,8 +46,20 @@
             this.ButtonBendingResults = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.labelBendingAmax = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.labelBendingAmax = new System.Windows.Forms.Label();
             this.labelBendingAs2 = new System.Windows.Forms.Label();
             this.labelBendingAs1 = new System.Windows.Forms.Label();
             this.labelBendingAmin = new System.Windows.Forms.Label();
@@ -63,7 +75,6 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.ComboBoxBendingSteele = new System.Windows.Forms.ComboBox();
@@ -248,8 +259,20 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.labelBendingAmax);
             this.groupBox1.Controls.Add(this.label21);
+            this.groupBox1.Controls.Add(this.label30);
+            this.groupBox1.Controls.Add(this.label31);
+            this.groupBox1.Controls.Add(this.label29);
+            this.groupBox1.Controls.Add(this.label28);
+            this.groupBox1.Controls.Add(this.label13);
+            this.groupBox1.Controls.Add(this.label25);
+            this.groupBox1.Controls.Add(this.label26);
+            this.groupBox1.Controls.Add(this.label24);
+            this.groupBox1.Controls.Add(this.label23);
+            this.groupBox1.Controls.Add(this.label27);
+            this.groupBox1.Controls.Add(this.label22);
+            this.groupBox1.Controls.Add(this.label20);
+            this.groupBox1.Controls.Add(this.labelBendingAmax);
             this.groupBox1.Controls.Add(this.labelBendingAs2);
             this.groupBox1.Controls.Add(this.labelBendingAs1);
             this.groupBox1.Controls.Add(this.labelBendingAmin);
@@ -265,7 +288,6 @@
             this.groupBox1.Controls.Add(this.label16);
             this.groupBox1.Controls.Add(this.label15);
             this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
@@ -276,27 +298,164 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Wyniki";
             // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label21.Location = new System.Drawing.Point(181, 132);
+            this.label21.Margin = new System.Windows.Forms.Padding(0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(29, 14);
+            this.label21.TabIndex = 43;
+            this.label21.Text = "max";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label30.Location = new System.Drawing.Point(206, 127);
+            this.label30.Margin = new System.Windows.Forms.Padding(7);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(49, 17);
+            this.label30.TabIndex = 42;
+            this.label30.Text = "(cm2):";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label31.Location = new System.Drawing.Point(166, 124);
+            this.label31.Margin = new System.Windows.Forms.Padding(6);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(20, 20);
+            this.label31.TabIndex = 41;
+            this.label31.Text = "A";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label29.Location = new System.Drawing.Point(181, 100);
+            this.label29.Margin = new System.Windows.Forms.Padding(0);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(28, 14);
+            this.label29.TabIndex = 40;
+            this.label29.Text = "min";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label28.Location = new System.Drawing.Point(206, 95);
+            this.label28.Margin = new System.Windows.Forms.Padding(7);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(49, 17);
+            this.label28.TabIndex = 39;
+            this.label28.Text = "(cm2):";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label13.Location = new System.Drawing.Point(205, 62);
+            this.label13.Margin = new System.Windows.Forms.Padding(7);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(49, 17);
+            this.label13.TabIndex = 38;
+            this.label13.Text = "(MPa):";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label25.Location = new System.Drawing.Point(178, 65);
+            this.label25.Margin = new System.Windows.Forms.Padding(0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(19, 14);
+            this.label25.TabIndex = 37;
+            this.label25.Text = "yd";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label26.Location = new System.Drawing.Point(170, 57);
+            this.label26.Margin = new System.Windows.Forms.Padding(6);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(14, 20);
+            this.label26.TabIndex = 36;
+            this.label26.Text = "f";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label24.Location = new System.Drawing.Point(205, 31);
+            this.label24.Margin = new System.Windows.Forms.Padding(7);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(49, 17);
+            this.label24.TabIndex = 35;
+            this.label24.Text = "(MPa):";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label23.Location = new System.Drawing.Point(178, 37);
+            this.label23.Margin = new System.Windows.Forms.Padding(0);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(19, 14);
+            this.label23.TabIndex = 34;
+            this.label23.Text = "cd";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.Transparent;
+            this.label27.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label27.Location = new System.Drawing.Point(24, 132);
+            this.label27.Margin = new System.Windows.Forms.Padding(0);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(18, 14);
+            this.label27.TabIndex = 33;
+            this.label27.Text = "ef";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label22.Location = new System.Drawing.Point(33, 63);
+            this.label22.Margin = new System.Windows.Forms.Padding(7);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(49, 17);
+            this.label22.TabIndex = 32;
+            this.label22.Text = "(cm2):";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label20.Location = new System.Drawing.Point(34, 31);
+            this.label20.Margin = new System.Windows.Forms.Padding(7);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(47, 17);
+            this.label20.TabIndex = 31;
+            this.label20.Text = "(mm):";
+            // 
             // labelBendingAmax
             // 
             this.labelBendingAmax.AutoSize = true;
             this.labelBendingAmax.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBendingAmax.Location = new System.Drawing.Point(262, 124);
+            this.labelBendingAmax.Location = new System.Drawing.Point(266, 124);
             this.labelBendingAmax.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingAmax.Name = "labelBendingAmax";
             this.labelBendingAmax.Size = new System.Drawing.Size(21, 20);
             this.labelBendingAmax.TabIndex = 22;
             this.labelBendingAmax.Text = "...";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label21.Location = new System.Drawing.Point(164, 124);
-            this.label21.Margin = new System.Windows.Forms.Padding(6);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(95, 20);
-            this.label21.TabIndex = 21;
-            this.label21.Text = "Amax(cm2):";
             // 
             // labelBendingAs2
             // 
@@ -324,7 +483,7 @@
             // 
             this.labelBendingAmin.AutoSize = true;
             this.labelBendingAmin.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBendingAmin.Location = new System.Drawing.Point(262, 92);
+            this.labelBendingAmin.Location = new System.Drawing.Point(266, 92);
             this.labelBendingAmin.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingAmin.Name = "labelBendingAmin";
             this.labelBendingAmin.Size = new System.Drawing.Size(21, 20);
@@ -335,7 +494,7 @@
             // 
             this.labelBendingFyd.AutoSize = true;
             this.labelBendingFyd.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBendingFyd.Location = new System.Drawing.Point(264, 60);
+            this.labelBendingFyd.Location = new System.Drawing.Point(266, 60);
             this.labelBendingFyd.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingFyd.Name = "labelBendingFyd";
             this.labelBendingFyd.Size = new System.Drawing.Size(21, 20);
@@ -346,7 +505,7 @@
             // 
             this.labelBendingFcd.AutoSize = true;
             this.labelBendingFcd.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBendingFcd.Location = new System.Drawing.Point(264, 28);
+            this.labelBendingFcd.Location = new System.Drawing.Point(266, 28);
             this.labelBendingFcd.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingFcd.Name = "labelBendingFcd";
             this.labelBendingFcd.Size = new System.Drawing.Size(21, 20);
@@ -357,7 +516,7 @@
             // 
             this.labelBendingF.AutoSize = true;
             this.labelBendingF.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBendingF.Location = new System.Drawing.Point(85, 124);
+            this.labelBendingF.Location = new System.Drawing.Point(87, 124);
             this.labelBendingF.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingF.Name = "labelBendingF";
             this.labelBendingF.Size = new System.Drawing.Size(21, 20);
@@ -368,7 +527,7 @@
             // 
             this.labelBendingN.AutoSize = true;
             this.labelBendingN.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelBendingN.Location = new System.Drawing.Point(85, 92);
+            this.labelBendingN.Location = new System.Drawing.Point(87, 92);
             this.labelBendingN.Margin = new System.Windows.Forms.Padding(6);
             this.labelBendingN.Name = "labelBendingN";
             this.labelBendingN.Size = new System.Drawing.Size(21, 20);
@@ -426,9 +585,9 @@
             this.label17.Location = new System.Drawing.Point(14, 124);
             this.label17.Margin = new System.Windows.Forms.Padding(6);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(35, 20);
+            this.label17.Size = new System.Drawing.Size(40, 20);
             this.label17.TabIndex = 9;
-            this.label17.Text = "ξef:";
+            this.label17.Text = "ξ     :";
             // 
             // label16
             // 
@@ -437,9 +596,9 @@
             this.label16.Location = new System.Drawing.Point(14, 92);
             this.label16.Margin = new System.Windows.Forms.Padding(6);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(26, 20);
+            this.label16.Size = new System.Drawing.Size(30, 20);
             this.label16.TabIndex = 8;
-            this.label16.Text = "μ :";
+            this.label16.Text = "μ  :";
             // 
             // label15
             // 
@@ -448,42 +607,31 @@
             this.label15.Location = new System.Drawing.Point(14, 60);
             this.label15.Margin = new System.Windows.Forms.Padding(6);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(69, 20);
+            this.label15.Size = new System.Drawing.Size(24, 20);
             this.label15.TabIndex = 7;
-            this.label15.Text = "A (cm2):";
+            this.label15.Text = "A ";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label14.Location = new System.Drawing.Point(164, 92);
+            this.label14.Location = new System.Drawing.Point(166, 92);
             this.label14.Margin = new System.Windows.Forms.Padding(6);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(90, 20);
+            this.label14.Size = new System.Drawing.Size(20, 20);
             this.label14.TabIndex = 6;
-            this.label14.Text = "Amin(cm2):";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label13.Location = new System.Drawing.Point(166, 60);
-            this.label13.Margin = new System.Windows.Forms.Padding(6);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(84, 20);
-            this.label13.TabIndex = 5;
-            this.label13.Text = "fyd (MPa):";
+            this.label14.Text = "A";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label12.Location = new System.Drawing.Point(168, 28);
+            this.label12.Location = new System.Drawing.Point(170, 28);
             this.label12.Margin = new System.Windows.Forms.Padding(6);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(86, 20);
+            this.label12.Size = new System.Drawing.Size(14, 20);
             this.label12.TabIndex = 4;
-            this.label12.Text = "fcd (MPa):";
+            this.label12.Text = "f";
             // 
             // label11
             // 
@@ -492,9 +640,9 @@
             this.label11.Location = new System.Drawing.Point(16, 28);
             this.label11.Margin = new System.Windows.Forms.Padding(6);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(63, 20);
+            this.label11.Size = new System.Drawing.Size(23, 20);
             this.label11.TabIndex = 3;
-            this.label11.Text = "d (mm):";
+            this.label11.Text = "d ";
             // 
             // ComboBoxBendingSteele
             // 
@@ -599,7 +747,6 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
@@ -614,6 +761,18 @@
         private System.Windows.Forms.Label labelBendingD;
         private System.Windows.Forms.Label labelBendingWarning;
         private System.Windows.Forms.Label labelBendingAmax;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label27;
     }
 }

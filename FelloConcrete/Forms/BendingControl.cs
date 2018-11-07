@@ -61,8 +61,8 @@ namespace FelloConcrete
             BeamBendResults result = bbc.Calculate(m, b, d, a, 1, fcd, fyd);
             as1 = result.As1;
             as2 = result.As2;
-            ni = result.ni;
-            f = result.zasiegStrefySciskanej;
+            ni = result.Ni;
+            f = result.ZasiegStrefySciskanej;
             warning = result.Warning;
             asmin = bbc.CalculationAsmin(b, d, fctm, fyk);
             asmax = bbc.CalculationAsmax(b, d);

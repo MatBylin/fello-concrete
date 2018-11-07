@@ -8,11 +8,10 @@ namespace FelloConcrete
 {
     class BeamBendResults
     {
-        public double ni { get; set; }
-        public double zasiegStrefySciskanej { get; set; }
+        public double Ni { get; set; }
+        public double ZasiegStrefySciskanej { get; set; }
         public double As1 { get; set; }
         public double As2 { get; set; }
         public string Warning { get; set; }
-
     }
 }
