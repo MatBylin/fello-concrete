@@ -46,15 +46,14 @@ namespace FelloConcrete
 
         private void ButtonAbout_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+            About about = new About();
+            about.ShowDialog(this);
         }
 
         private void ButtonMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
-
 
         Point lastPoint;
 
@@ -64,7 +63,6 @@ namespace FelloConcrete
             {
                 this.Left += e.X - lastPoint.X;
                 this.Top += e.Y - lastPoint.Y;
-
             }
         }
         private void Panel2_MouseDown(object sender, MouseEventArgs e)
@@ -73,33 +71,7 @@ namespace FelloConcrete
         }
         private void Panel2_MouseUp(object sender, MouseEventArgs e)
         {
-           
+
         }
-
-
-
-
-        //int _mouseX = 0, _mouseY = 0;
-        //bool _mouseDown;
-
-        //private void panel2_MouseMove(object sender, MouseEventArgs e)
-        //{
-        //    if (_mouseDown)
-        //    {
-        //        _mouseX = MousePosition.X - 420;
-        //        _mouseY = MousePosition.Y - 17;
-        //        this.SetDesktopLocation(_mouseX, _mouseY);
-        //    }
-        //}
-
-        //private void panel2_MouseUp(object sender, MouseEventArgs e)
-        //{
-        //    _mouseDown = false;
-        //}
-
-        //private void panel2_MouseDown(object sender, MouseEventArgs e)
-        //{
-        //    _mouseDown = true;
-        //}
     }
 }
