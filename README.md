@@ -7,7 +7,7 @@ Structural engineer calculations for rectangular concrete beams. The application
 * [Visual Studio](https://visualstudio.microsoft.com/) - IDE used for this project.
 
 ## License
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the GNU General Public License v3.0 - see the LICENSE.md file for details.
 
 ## Credits
 * Face avatar from [face.co](https://face.co/)
