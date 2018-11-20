@@ -32,6 +32,7 @@
             this.Panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.circleButton1 = new FelloConcrete.CircleButton();
             this.SidePanel = new System.Windows.Forms.Panel();
             this.ButtonShear = new System.Windows.Forms.Button();
             this.ButtonBending = new System.Windows.Forms.Button();
@@ -41,9 +42,7 @@
             this.ButtonQuit = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.shearControl1 = new FelloConcrete.ShearControl();
-            this.circleButton1 = new FelloConcrete.CircleButton();
             this.bendingControl1 = new FelloConcrete.BendingControl();
-            this.label13 = new System.Windows.Forms.Label();
             this.Panel1.SuspendLayout();
             this.Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -52,7 +51,6 @@
             // Panel1
             // 
             this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.Panel1.Controls.Add(this.label13);
             this.Panel1.Controls.Add(this.label3);
             this.Panel1.Controls.Add(this.label2);
             this.Panel1.Controls.Add(this.circleButton1);
@@ -86,6 +84,17 @@
             this.label2.Size = new System.Drawing.Size(164, 18);
             this.label2.TabIndex = 4;
             this.label2.Text = "matbylin@gmail.com";
+            // 
+            // circleButton1
+            // 
+            this.circleButton1.FlatAppearance.BorderSize = 0;
+            this.circleButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.circleButton1.Image = ((System.Drawing.Image)(resources.GetObject("circleButton1.Image")));
+            this.circleButton1.Location = new System.Drawing.Point(37, 12);
+            this.circleButton1.Name = "circleButton1";
+            this.circleButton1.Size = new System.Drawing.Size(130, 130);
+            this.circleButton1.TabIndex = 0;
+            this.circleButton1.UseVisualStyleBackColor = true;
             // 
             // SidePanel
             // 
@@ -141,7 +150,6 @@
             this.Panel2.TabIndex = 1;
             this.Panel2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Panel2_MouseDown);
             this.Panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Panel2_MouseMove);
-            this.Panel2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Panel2_MouseUp);
             // 
             // ButtonMinimize
             // 
@@ -204,34 +212,12 @@
             this.shearControl1.Size = new System.Drawing.Size(615, 500);
             this.shearControl1.TabIndex = 3;
             // 
-            // circleButton1
-            // 
-            this.circleButton1.FlatAppearance.BorderSize = 0;
-            this.circleButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.circleButton1.Image = ((System.Drawing.Image)(resources.GetObject("circleButton1.Image")));
-            this.circleButton1.Location = new System.Drawing.Point(37, 12);
-            this.circleButton1.Name = "circleButton1";
-            this.circleButton1.Size = new System.Drawing.Size(130, 130);
-            this.circleButton1.TabIndex = 0;
-            this.circleButton1.UseVisualStyleBackColor = true;
-            // 
             // bendingControl1
             // 
             this.bendingControl1.Location = new System.Drawing.Point(210, 37);
             this.bendingControl1.Name = "bendingControl1";
             this.bendingControl1.Size = new System.Drawing.Size(615, 500);
             this.bendingControl1.TabIndex = 2;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label13.Location = new System.Drawing.Point(44, 531);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(119, 17);
-            this.label13.TabIndex = 20;
-            this.label13.Text = "All rights reserved";
             // 
             // MainForm
             // 
@@ -270,7 +256,6 @@
         private System.Windows.Forms.Button ButtonMinimize;
         private BendingControl bendingControl1;
         private ShearControl shearControl1;
-        private System.Windows.Forms.Label label13;
     }
 }
 

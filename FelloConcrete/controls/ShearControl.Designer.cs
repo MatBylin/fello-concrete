@@ -55,6 +55,7 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.labelShearWarn = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -88,8 +89,6 @@
             this.labelShearCtgt = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.labelTest = new System.Windows.Forms.Label();
-            this.labelShearWarn = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -181,6 +180,7 @@
             this.TextBoxShearV.TabIndex = 6;
             this.TextBoxShearV.Text = "100";
             this.TextBoxShearV.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TextBoxShearV.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxShearV_KeyPress);
             // 
             // label9
             // 
@@ -222,6 +222,7 @@
             this.TextBoxShearA.TabIndex = 2;
             this.TextBoxShearA.Text = "25";
             this.TextBoxShearA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TextBoxShearA.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxShearA_KeyPress);
             // 
             // label5
             // 
@@ -243,6 +244,7 @@
             this.TextBoxShearH.TabIndex = 1;
             this.TextBoxShearH.Text = "450";
             this.TextBoxShearH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TextBoxShearH.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxShearH_KeyPress);
             // 
             // label4
             // 
@@ -264,6 +266,7 @@
             this.TextBoxShearB.TabIndex = 0;
             this.TextBoxShearB.Text = "250";
             this.TextBoxShearB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TextBoxShearB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxShearB_KeyPress);
             // 
             // label3
             // 
@@ -305,6 +308,7 @@
             this.TextBoxShearAs.TabIndex = 3;
             this.TextBoxShearAs.Text = "4,52";
             this.TextBoxShearAs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TextBoxShearAs.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxShearAs_KeyPress);
             // 
             // label20
             // 
@@ -423,6 +427,16 @@
             this.groupBox1.TabIndex = 47;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Wyniki";
+            // 
+            // labelShearWarn
+            // 
+            this.labelShearWarn.AutoSize = true;
+            this.labelShearWarn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelShearWarn.Location = new System.Drawing.Point(16, 162);
+            this.labelShearWarn.Margin = new System.Windows.Forms.Padding(7);
+            this.labelShearWarn.Name = "labelShearWarn";
+            this.labelShearWarn.Size = new System.Drawing.Size(0, 17);
+            this.labelShearWarn.TabIndex = 60;
             // 
             // label11
             // 
@@ -794,32 +808,10 @@
             this.label24.TabIndex = 3;
             this.label24.Text = "ctg Φ:";
             // 
-            // labelTest
-            // 
-            this.labelTest.AutoSize = true;
-            this.labelTest.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelTest.Location = new System.Drawing.Point(279, 217);
-            this.labelTest.Margin = new System.Windows.Forms.Padding(7);
-            this.labelTest.Name = "labelTest";
-            this.labelTest.Size = new System.Drawing.Size(21, 20);
-            this.labelTest.TabIndex = 60;
-            this.labelTest.Text = "...";
-            // 
-            // labelShearWarn
-            // 
-            this.labelShearWarn.AutoSize = true;
-            this.labelShearWarn.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelShearWarn.Location = new System.Drawing.Point(16, 162);
-            this.labelShearWarn.Margin = new System.Windows.Forms.Padding(7);
-            this.labelShearWarn.Name = "labelShearWarn";
-            this.labelShearWarn.Size = new System.Drawing.Size(0, 17);
-            this.labelShearWarn.TabIndex = 60;
-            // 
             // ShearControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.labelTest);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
@@ -917,7 +909,6 @@
         private System.Windows.Forms.Label labelShearFcd;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label labelTest;
         private System.Windows.Forms.Label labelShearWarn;
     }
 }

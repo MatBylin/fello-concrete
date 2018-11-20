@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace FelloConcrete
@@ -42,7 +35,7 @@ namespace FelloConcrete
 
             double d, pow, powAs, fck, fcd, fyd, fyk, fctm;
             double vRdc, vRds, vRdmax, roStrzemion, roMin, sRozstawFloor;
-            string warning;
+            //string warning;
 
             var ctgt = 1; // Cotangens teta od 1 do 2
             d = (h - a);
@@ -96,7 +89,40 @@ namespace FelloConcrete
                 labelShearWarn.Text = "";
                 labelShearResult.Text = "Φ" + fi + " co:  " + sRozstawFloor + " cm";
             }
-               
+        }
+
+        private void TextBoxShearB_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            OnlyDigit(sender, e);
+        }
+
+        private void TextBoxShearH_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            OnlyDigit(sender, e);
+        }
+
+        private void TextBoxShearA_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            OnlyDigit(sender, e);
+        }
+
+        private void TextBoxShearAs_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            OnlyDigit(sender, e);
+        }
+
+        private void TextBoxShearV_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            OnlyDigit(sender, e);
+        }
+
+        private void OnlyDigit(object sender, KeyPressEventArgs e)
+        {
+            char ch = e.KeyChar;
+            if (!Char.IsDigit(ch) && ch != 8 && ch != ',')
+            {
+                e.Handled = true;
+            }
         }
     }
 }
