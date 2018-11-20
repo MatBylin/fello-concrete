@@ -1,6 +1,7 @@
 # Fello concrete
-Structural engineer calculations for rectangular concrete beams. The application has two modules: shear and bending. Calculations are in accordance with the PN-EN-1992-1-1 european norm. FelloConcrete was written in C#.
-![Fello-concrete-screenshot](FelloConcrete/img/felloconcrete.jpg)
+Structural engineer calculations for rectangular concrete beams. The application has two modules: shear and bending. Calculations are in accordance with the PN-EN-1992-1-1 european norm. FelloConcrete was written in C#.  
+
+![Fello-concrete-screenshot](FelloConcrete/img/felloconcrete.png)
 
 ## Build With
 * [Visual Studio](https://visualstudio.microsoft.com/) - IDE used for this project.
